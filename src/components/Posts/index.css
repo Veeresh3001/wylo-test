@@ -1,0 +1,78 @@
+.posts-main{
+    background-image: url('https://res.cloudinary.com/dwga2gxyd/image/upload/v1720332070/bg-upload_mvno9g.png');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.posts{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+    height: 90vh;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 10px;
+}
+.posts li{
+    width: 400px;
+    /* height: 200px; */
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.data h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #232323;
+}
+.data p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: #31304d;
+}
+.input-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input-card input{
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-radius: 6px;
+    border-left: #232323 1px solid;
+    border-bottom: #232323 1px solid;
+    background-color: transparent;
+    padding: 7px 12px;
+}
+.input-card textarea{
+    width: 100%;
+    min-height: 100px;
+}
+
+.icons-card{
+    margin-top: 50px;
+    width: 80%;
+    /* align-self: flex-end; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons-card button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+
